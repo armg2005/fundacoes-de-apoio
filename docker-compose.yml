@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      # Mantém o banco SQLite entre reinícios do container.
+      - sqlite-data:/app/data
+
+volumes:
+  sqlite-data:

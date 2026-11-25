@@ -1,0 +1,9 @@
+/vendor/
+/database/*.sqlite
+/.phpunit.cache/
+.DS_Store
+.idea/
+.claude/
+.phpunit.result.cache
+.DS_Store
+/docs/
